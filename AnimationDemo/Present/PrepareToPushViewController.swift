@@ -20,7 +20,7 @@ class PrepareToPushViewController: UIViewController {
         
         button.setTitle("Go", for: .normal)
         button.addTarget(self, action: #selector(buttonPressed), for: .touchUpInside)
-        button.backgroundColor = .white
+        button.backgroundColor = .blue
         button.setTitleColor(.gray, for: .normal)
         button.layer.cornerRadius = 30
         view.addSubview(button)
@@ -40,7 +40,7 @@ extension PrepareToPushViewController {
         animation.destinationPoint = button.center
         vc.transitioningDelegate = animation
         vc.modalPresentationStyle = .custom
-        animation.interation.wire(viewController: vc)
+        animation.interaction.wireGesture(on: vc)
         present(vc, animated: true, completion: nil)
     }
 }
