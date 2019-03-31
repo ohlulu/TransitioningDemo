@@ -15,7 +15,7 @@
 		BE2EFF7421F47BCF007F3CAC /* CustomPresentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2EFF7321F47BCF007F3CAC /* CustomPresentAnimation.swift */; };
 		BEF1993D2234240000A6185A /* start.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEF1993B2234240000A6185A /* start.jpg */; };
 		BEF19941223427DB00A6185A /* end.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEF19940223427DB00A6185A /* end.jpg */; };
-		BEF199432234298300A6185A /* UpToDownIneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF199422234298300A6185A /* UpToDownIneration.swift */; };
+		BEF199432234298300A6185A /* UpToDownIneraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF199422234298300A6185A /* UpToDownIneraction.swift */; };
 		BEF2E99621CF9E76005A4420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF2E99521CF9E76005A4420 /* AppDelegate.swift */; };
 		BEF2E99821CF9E76005A4420 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF2E99721CF9E76005A4420 /* ViewController.swift */; };
 		BEF2E99B21CF9E76005A4420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF2E99921CF9E76005A4420 /* Main.storyboard */; };
@@ -63,7 +63,7 @@
 		BE2EFF7321F47BCF007F3CAC /* CustomPresentAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentAnimation.swift; sourceTree = "<group>"; };
 		BEF1993B2234240000A6185A /* start.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = start.jpg; sourceTree = "<group>"; };
 		BEF19940223427DB00A6185A /* end.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = end.jpg; sourceTree = "<group>"; };
-		BEF199422234298300A6185A /* UpToDownIneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpToDownIneration.swift; sourceTree = "<group>"; };
+		BEF199422234298300A6185A /* UpToDownIneraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpToDownIneraction.swift; sourceTree = "<group>"; };
 		BEF2E99221CF9E76005A4420 /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF2E99521CF9E76005A4420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF2E99721CF9E76005A4420 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 				BE25A6C7222A6F5E00B3C4C5 /* CustomTransition.swift */,
 				BE2EFF7321F47BCF007F3CAC /* CustomPresentAnimation.swift */,
 				BE25A6C5222A6EEB00B3C4C5 /* CustomDismissAnimation.swift */,
-				BEF199422234298300A6185A /* UpToDownIneration.swift */,
+				BEF199422234298300A6185A /* UpToDownIneraction.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -468,7 +468,7 @@
 				BEF2E99821CF9E76005A4420 /* ViewController.swift in Sources */,
 				BEF2E9C721CFA0AC005A4420 /* CellImage.swift in Sources */,
 				BEF2E99621CF9E76005A4420 /* AppDelegate.swift in Sources */,
-				BEF199432234298300A6185A /* UpToDownIneration.swift in Sources */,
+				BEF199432234298300A6185A /* UpToDownIneraction.swift in Sources */,
 				BE2EFF7421F47BCF007F3CAC /* CustomPresentAnimation.swift in Sources */,
 				BEF2E9C521CFA02A005A4420 /* NavigationDemo.swift in Sources */,
 				BE2EFF6F21F47716007F3CAC /* PrepareToPushViewController.swift in Sources */,
