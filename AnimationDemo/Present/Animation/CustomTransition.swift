@@ -17,7 +17,7 @@ class CustomTransition: NSObject, UIViewControllerTransitioningDelegate {
     private lazy var presentAnimation = CustomPresentAnimation(startPoint: destinationPoint)
     private lazy var dismissAnimation = CustomDismissAnimation(endPoint: destinationPoint)
     
-    let interation = UpToDownIneration()
+    let interaction = UpToDownIneraction()
     
     func animationController(forPresented presented: UIViewController,
                              presenting: UIViewController,
@@ -40,8 +40,8 @@ class CustomTransition: NSObject, UIViewControllerTransitioningDelegate {
     
     
     func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
-        print(interation.interacting)
-        return interation.interacting ? interation : nil
+        print(interaction.interacting)
+        return interaction.interacting ? interaction : nil
     }
     
 }

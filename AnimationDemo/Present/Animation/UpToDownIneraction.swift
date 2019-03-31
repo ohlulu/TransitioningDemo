@@ -8,23 +8,19 @@
 
 import UIKit
 
-class UpToDownIneration: UIPercentDrivenInteractiveTransition {
-    var interacting: Bool = false
+class UpToDownIneraction: UIPercentDrivenInteractiveTransition {
+    var interacting = false
     
-    private var couldComplete: Bool = false
+    private var couldComplete = false
     private weak var presentingViewController: UIViewController? = nil
     
-    func wire(viewController:UIViewController) {
+    func wireGesture(on viewController: UIViewController) {
         presentingViewController = viewController
-        prepareGestureRecognizeInView(view: viewController.view)
+        let gesture = UIPanGestureRecognizer(target: self, action: #selector(handleGesture(_:)))
+        viewController.view.addGestureRecognizer(gesture)
     }
     
-    func prepareGestureRecognizeInView(view:UIView) {
-        let gesture = UIPanGestureRecognizer(target: self, action: #selector(handleGesture(gestureRecoginizer:)))
-        view.addGestureRecognizer(gesture)
-    }
-    
-    @objc func handleGesture(gestureRecoginizer: UIPanGestureRecognizer) {
+    @objc func handleGesture(_ gestureRecoginizer: UIPanGestureRecognizer) {
         let gestureView = gestureRecoginizer.view!
         let trainsiton = gestureRecoginizer.translation(in: gestureView)
         switch gestureRecoginizer.state {
